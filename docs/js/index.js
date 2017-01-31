@@ -1,11 +1,17 @@
-// var menuBox = document.querySelectorAll(".menuBox > div");
-// var maxMenuBoxHeight = menuBox[0].height;
-// for(i = 1; i < menuBox.length; i ++){
-// 	if(maxMenuBoxHeight < menuBox[i].height){
-// 		maxMenuBoxHeight = menuBox[i].height
+var fH = $("#footer").height();
+var bH = $("body").height();
+var wH = $(window).height();
+
+
+// function alignFooter() {
+// 	var fH = $("#footer").height();
+// 	var bH = $("body").height();
+// 	var wH = $(window).height();
+// 	if(wH >= bH){
+		// $("#footer").css({
+		// 	top: wH - fH - 70
+		// });
 // 	}
 // }
-// console.log(maxMenuBoxHeight)
-// for(i = 0; i < menuBox.length; i++){
-// 	menuBox[i].clientHeight = String(maxMenuBoxHeight);
-// }
+// window.onresize = alignFooter;
+// alignFooter();
