@@ -57,7 +57,20 @@ a:hover {
 }
 .quoteBox img {
 	max-width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+}
+#left-arrow {
+	width: 50%;
+	color: white;
+	float: left;
+	padding-left: 15%;
+}
+#right-arrow {
+	width: 50%;
+	color: white;
+	float: left;
+	padding-right: 10%;
+	text-align: right;
 }
 .menuBox > div{
 	background-color: rgba(28, 61, 114, 0.9);
@@ -84,4 +97,7 @@ i {
 }
 #footer > p {
 	margin: 10px 0 0 0;
+}
+.hidden {
+	display: none;
 }
