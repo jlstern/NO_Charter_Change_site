@@ -89,6 +89,9 @@ a:hover {
 #mc_embed_signup select {
 	color: black;
 }
+#mc-embedded-subscribe {
+	color: black;
+}
 #footer {
 	position: fixed;
 	bottom: 0;
