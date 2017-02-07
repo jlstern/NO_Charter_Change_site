@@ -83,7 +83,11 @@ a:hover {
 	text-decoration: underline;
 }
 #mc_embed_signup input {
-	margin-left: 20px;
+	/*margin-left: 20px;*/
+	color: black;
+}
+#mc_embed_signup select {
+	color: black;
 }
 #footer {
 	position: fixed;
