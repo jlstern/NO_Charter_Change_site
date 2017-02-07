@@ -82,6 +82,9 @@ a:hover {
 .under {
 	text-decoration: underline;
 }
+#mc_embed_signup input {
+	margin-left: 20px;
+}
 #footer {
 	position: fixed;
 	bottom: 0;
