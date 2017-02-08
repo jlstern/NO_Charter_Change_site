@@ -20,6 +20,7 @@ h1 {
   top: 0;
   left: 0;
   z-index: -1;
+  opacity: 0.85;
 }
 @media screen and (max-width: 1024px) {
   img#backgroundImage {
@@ -48,7 +49,7 @@ a:hover {
 	color: orange;
 }
 .quoteBox {
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-bottom: 50px;
 	background-color: rgba(28, 61, 114, 0.9);
 	border-radius: 15px;
@@ -56,7 +57,7 @@ a:hover {
 	color: white;
 }
 .quoteBox img {
-	max-width: 100%;
+	max-width: 195px;
 	margin-bottom: 15px;
 }
 #left-arrow {
@@ -78,6 +79,32 @@ a:hover {
 	padding: .1px 7px 10px 7px;
 	margin-bottom: 20px;
 	color: white;
+}
+#newton-website {
+	max-width: 100%;
+}
+.supporter {
+	background-color: rgba(28, 61, 114, 0.9);
+	border-radius: 15px;
+	color: white;
+	padding: 10px;
+	margin: 10px 0 10px 0;
+	/*height: 400px;*/
+}
+.supporter h2 {
+	text-align: center;
+}
+.supporter div {
+	float: left;
+	margin: 0 0 5px 5px;
+	padding: 5px 15px 5px 0;
+}
+.supporter div img {
+	width: 120px;
+	border: 2px solid white;
+}
+.btm-margin {
+	height: 50px;
 }
 .under {
 	text-decoration: underline;
